@@ -23,16 +23,24 @@
             display: inline-block;
             margin-left: 15px;
         }
+
+        .li-login {
+            position: relative;
+            color: white;
+            background-color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <ul>
-            <li href="#">Home</li>
-            <li href="#">Kontak</li>
-            <li href="#">FAQ</li>
-            <li class="li-login" href="#">Login</li>
+            <li><a class="li-login" href="#">Home</a></li>
+            <li><a class="li-login" href="#">Kontak</a></li>
+            <li><a class="li-login" href="#">FAQ</a></li>
+            <li><a class="li-login" href="#">Login</a></li>
         </ul>
     </div>
 </body>
